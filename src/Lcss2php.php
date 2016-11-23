@@ -11,7 +11,7 @@ use Websemantics\Lcss2php\Compiler\ScssCompiler;
  * @link   http://websemantics.ca
  * @author Adnan M.Sagar, <adnan@websemantics.ca>
  * @copyright 2011-2016 Web Semantics, Inc.
- * @license http://opensource.org/licenses/MIT MIT
+ * @license http://opensource.org/licenses/MIT
  * @link https://github.com/websemantics/lcss2php
  */
 
