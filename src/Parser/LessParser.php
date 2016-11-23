@@ -19,6 +19,6 @@ class LessParser extends \Less_Parser {
      * @return Less_Tree_Ruleset 
      */
     public function getRoot(){
-        return (new \Less_Tree_Ruleset(array(), $this->rules ))->compile(new \Less_Environment([]));
+        return (new \Less_Tree_Ruleset(array(), $this->rules))->compile(new \Less_Environment([]));
     }
 }
