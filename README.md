@@ -26,7 +26,7 @@ By default all variable types are returned, for example, `Color`, `Dimension`, e
 ```php
 $variables = (new Lcss2php($files))->ignore(['Color', 'Dimension'])->all();
 ```
-Notice that, there are two different variable types for each lanaguage (`Less`, `Scss`). For a list of all the type, check class `Type` at `lcss2php/src/Node/Type.php`.
+Notice that, there are two different variable types for each lanaguage (`Less`, `Scss`). For a list of all the types, check class `Type` at `lcss2php/src/Node/Type.php`.
 
 ## Example
 
