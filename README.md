@@ -1,9 +1,9 @@
 ![LCSS2PHP](https://websemantics.github.io/lcss2php/lcss2php.svg)
-> A straightforward library that reads a mixed list of Less and Scss to extract their variables and return them as a PHP associative array.
+> A straightforward library that reads a mixed list of `Less` and `Scss` to extract their variables and return them as a PHP associative array.
 
 ## Install
 
-1- Use `composer ` to install as follows, 
+1- Use `composer` to install as follows, 
 
 ```bash
 composer require websemantics/lcss2php
