@@ -1,9 +1,9 @@
-![LCSS2PHP](https://websemantics.github.io/lcss2php/assets/lcss2php.svg)
+![LCSS2PHP](https://websemantics.github.io/lcss2php/assets/img/lcss2php.svg)
 > A straightforward library that reads a mixed list of `Less` and `Scss` to extract their variables and return them as a PHP associative array.
 
 ## Install
 
-1- Use `composer` to install as follows, 
+1- Use `Composer` to install as follows, 
 
 ```bash
 composer require websemantics/lcss2php
@@ -11,7 +11,7 @@ composer require websemantics/lcss2php
 
 ## Getting Started
 
-Pass a list of files (Less, Scss or a mix ) to a newly created instance of `Lcss2php` class to get a list of all the variables using `all` method.
+Pass a list of files (`Less`, `Scss` or a mix ) to a newly created instance of `Lcss2php` class to get a list of all the variables using `all` method.
 
 ```php
 $files = ['/usr/etc/variables.less', '/usr/etc/_variables.scss'];
@@ -26,11 +26,11 @@ By default all variable types are returned, for example, `Color`, `Dimension`, e
 ```php
 $variables = (new Lcss2php($files))->ignore(['Color', 'Dimension'])->all();
 ```
-Notice that, there are two different variable types for each lanaguage (Less, Scss). For a list of all the type, check class `Type` at `lcss2php/src/Node/Type.php`.
+Notice that, there are two different variable types for each lanaguage (`Less`, `Scss`). For a list of all the type, check class `Type` at `lcss2php/src/Node/Type.php`.
 
 ## Example
 
-Quick run of what to expect; take this Scss example code,
+Quick run of what to expect; take this `Scss` example code,
 
 ```sass
 $green: #24ce7b !default;
