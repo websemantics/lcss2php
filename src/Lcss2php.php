@@ -1,5 +1,8 @@
 <?php namespace Websemantics\Lcss2php;
 
+use Websemantics\Lcss2php\Compiler\LessCompiler;
+use Websemantics\Lcss2php\Compiler\ScssCompiler;
+
 /**
  * Lcss2php
  *
