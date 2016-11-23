@@ -1,5 +1,5 @@
 ![LCSS2PHP](https://websemantics.github.io/lcss2php/assets/img/logo.svg)
-> A straightforward library that reads a mixed list of `Less` and `Scss` to extract their variables and return them as a PHP associative array.
+> A straightforward library that reads a mixed list of `Less` and `Scss` files to extract their variables and return them as a PHP associative array.
 
 ## Install
 
