@@ -21,7 +21,7 @@ $lcss2php = new Lcss2php($files);
 $variables = $lcss2php->all();
 ```
 
-By default all variable types are returned, for example, `Color`, `Dimension`, etc. You can use ignoree function to skip them from the final variables list,
+By default all variable types are returned, for example, `Color`, `Dimension`, etc. You can use the `ignore` function to filter some types from the final variables list,
 
 ```php
 $variables = (new Lcss2php($files))->ignore(['Color', 'Dimension'])->all();
