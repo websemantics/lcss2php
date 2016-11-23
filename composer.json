@@ -1,0 +1,25 @@
+{
+    "name": "websemantics/lcss2php",
+    "description": "Conveniently extracts SCSS and LESS variables and converts them into a PHP array.",
+    "keywords": ["laravel", "less", "scss", "sass", "php", "pyrocms"],
+    "homepage": "https://github.com/websemantics/lcss2php",
+    "license" : "MIT",
+    "authors": [
+        {
+            "name": "Adnan M.Sagar",
+            "homepage": "http://websemantics.ca"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "oyejorge/less.php": "1.7.*",
+        "leafo/scssphp": "0.6.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Websemantics\\Lcss2php\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
