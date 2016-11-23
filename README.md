@@ -11,7 +11,7 @@ composer require websemantics/lcss2php
 
 ## Getting Started
 
-Pass a list of files (`Less`, `Scss` or a mix ) to a newly created instance of `Lcss2php` class to get a list of all the variables using `all` method.
+Pass a list of files (`Less`, `Scss` or a mix ) to a newly created instance of `Lcss2php` class. Get a list of all the variables using the `all` method.
 
 ```php
 $files = ['/usr/etc/variables.less', '/usr/etc/_variables.scss'];
