@@ -10,7 +10,7 @@
     <radialGradient id="k" cx="479.84415" cy="875.65735" r="53.322399" xlink:href="#b" gradientUnits="userSpaceOnUse" gradientTransform="translate(-276.824 -685.7) scale(.8613)" fx="479.84415" fy="875.65735"/>
     <radialGradient id="l" cx="492.75659" cy="907.39502" r="28.68" xlink:href="#c" gradientUnits="userSpaceOnUse" gradientTransform="translate(-345.2 -811.68)"/>
   </defs>
-  <g opacity="0.4">
+  <g opacity="0.7" transform="scale(0.5)">
     <path fill="#f95" stroke="#3a68b1" stroke-opacity=".8" stroke-width="15.38009167" d="M7.6900343 270.39308V154.49451l96.5816957-27.04293V86.887181l65.6754-48.29096h100.4449l1.9317-30.9061901 129.4194 1.93162 94.65 88.8553601 1.9316 27.042929h42.49594l44.42756 69.53896v75.33418z"/>
     <text x="82.445679" y="236.88129" fill="#fff" style="text-align:start;line-height:125%;-inkscape-font-specification:FORCED SQUARE Medium" font-size="182.44276428" font-weight="500" letter-spacing="0" word-spacing="0" font-family="FORCED SQUARE">
       <tspan x="82.445679" y="236.88129" style="text-align:start;line-height:125%;-inkscape-font-specification:FORCED SQUARE Medium">scss</tspan>
