@@ -25,7 +25,7 @@ class LessCompiler extends \lessc {
 
         $vars = [];
 
-        $root = (new LessParser( $this->getOptions()))->parse($code)->getRoot();
+        $root = (new LessParser($this->getOptions()))->parse($code)->getRoot();
 
         foreach ($root->_variables as $name => $value) {
             if(!in_array($value->value->type, $ignore)){
