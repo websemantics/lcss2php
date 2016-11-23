@@ -61,7 +61,7 @@ class Lcss2php
     public function all() {
         $vars = [];
 
-        /* Loop through file list (mix of scss / less */
+        /* Loop through the file list (mix of scss / less) */
         foreach ($this->files as $file) {
             if(file_exists($file)){
 
