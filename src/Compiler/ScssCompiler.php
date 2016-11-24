@@ -27,7 +27,7 @@ class ScssCompiler extends Compiler {
         $this->compile($code);
 
         foreach ($this->rootEnv->store as $name => $value) {
-            if(!in_array($value[0], $ignore)){
+            if(!in_array(is_object($value) ? $value->type : $value[0], $ignore)){
                 $vars[str_replace('_', '-', $name)] = $this->compileValue($value);
             }
         }
