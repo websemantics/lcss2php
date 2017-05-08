@@ -48,7 +48,7 @@ class Lcss2php
      */
     public function ignore($types = []) {
         $this->ignore = array_merge($this->ignore, is_string($types) ? [$types] : $types);
-        
+
         /* Play nice, be fluent! */
         return $this;
     }
@@ -61,6 +61,9 @@ class Lcss2php
     public function all() {
         $vars = [];
 
+        $locale = setlocale(LC_NUMERIC, 0);
+        setlocale(LC_NUMERIC, 'C');
+
         /* Loop through the file list (mix of scss / less) */
         foreach ($this->files as $file) {
             if(file_exists($file)){
@@ -72,6 +75,8 @@ class Lcss2php
                 }
             }
         }
+
+        setlocale(LC_NUMERIC, $locale);
 
         return $vars;
     }
