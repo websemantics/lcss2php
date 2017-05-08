@@ -1,6 +1,6 @@
 {
     "name": "websemantics/lcss2php",
-    "description": "Conveniently extracts SCSS and LESS variables and converts them into a PHP array.",
+    "description": "Conveniently extracts variable declarations from multiple Less / Scss sources and returns a PHP associative array.",
     "keywords": ["laravel", "less", "scss", "sass", "php", "pyrocms"],
     "homepage": "https://github.com/websemantics/lcss2php",
     "license" : "MIT",
